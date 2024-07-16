@@ -1,0 +1,28 @@
+{
+  "name": "validate-error-tsoa-woowfix",
+  "version": "1.0.8",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "validate",
+    "error"
+  ],
+  "author": "Jefferson Garcia",
+  "license": "MIT",
+  "description": "A simple library to validate errors",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.614.0",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "tsoa": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  }
+}
